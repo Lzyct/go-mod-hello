@@ -1,5 +1,5 @@
 package gomodhello
 
-func Whatsup(name string) string {
-	return "Hey, What's up " + name
+func Whatsup(firstName string, lastName string) string {
+	return "Hey, What's up " + firstName + " " + lastName
 }
